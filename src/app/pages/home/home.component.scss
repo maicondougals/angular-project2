@@ -1,0 +1,117 @@
+header{
+    width: 100%;
+    height: auto;
+    
+    
+    background-color:var(--transparencia-clara);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+  
+    
+    border-radius: 24px;
+  
+    border-top: 2px solid rgba(255, 255, 255, 0.2);
+    border-left: 1px solid rgba(255, 255, 255, 0.2);
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+  
+    box-shadow: -0 3px 20px 3px rgba(120, 120, 120, 0.1);
+
+    margin: 120px auto 0;
+
+    padding: 24px;
+    
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 24px;
+
+    .titulo-container{
+        
+        width: 100%;
+
+        color: var(--primary-color);
+
+        background-color: var(--transparencia-media);
+        -webkit-backdrop-filter: blur(3px);
+        backdrop-filter: blur(3px);
+    
+        border-radius: 24px;
+    
+        border-top: 2px solid rgba(255, 255, 255, 0.2);
+        border-left: 1px solid rgba(255, 255, 255, 0.2);
+        border-right: 1px solid rgba(255, 255, 255, 0.2);
+    
+        box-shadow: -0 3px 20px 3px rgba(120, 120, 120, 0.1);
+
+        display: flex;
+
+        padding: 0 24px;
+
+
+    }
+    .description-container{
+        width: 100%;
+
+        color: var(--primary-color);
+
+        background-color: var(--transparencia-media);
+        -webkit-backdrop-filter: blur(3px);
+        backdrop-filter: blur(3px);
+    
+        border-radius: 24px;
+    
+        border-top: 2px solid rgba(255, 255, 255, 0.2);
+        border-left: 1px solid rgba(255, 255, 255, 0.2);
+        border-right: 1px solid rgba(255, 255, 255, 0.2);
+    
+        box-shadow: -0 3px 20px 3px rgba(120, 120, 120, 0.1);
+
+        display: flex;
+
+        padding: 0 24px;
+
+    }
+  
+}
+
+.angular-container{
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+    padding: 24px;
+
+    background:linear-gradient(to right ,rgba(128, 0, 128, 0.2), rgba(0, 0, 255, 0.2));
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+  
+    
+    border-radius: 24px;
+  
+    border-top: 2px solid rgba(255, 255, 255, 0.2);
+    border-left: 1px solid rgba(255, 255, 255, 0.2);
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+  
+    box-shadow: -0 3px 20px 3px rgba(120, 120, 120, 0.1);
+
+    
+
+    img{
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+    }
+    .angular-text-container{
+        width: 100%;
+        height: auto;
+        max-width: 500px;
+
+        color: var(--primary-color);
+
+    }
+}

@@ -1,1 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
+:root{
+    --primary-color: #e4e4e4;
+    --transparencia-clara:rgba(0, 0, 0, 0.1);
+    --transparencia-media:rgba(0, 0, 0, 0.3);
+    --transparencia-escura:rgba(0, 0, 0, 0.4);
+
+}
+
+
+
+body{
+    padding: 24px;
+    margin: 0;
+    background-image: url('/body.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+
+}
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
