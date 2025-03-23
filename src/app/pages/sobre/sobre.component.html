@@ -5,11 +5,11 @@
     </section>
 
     <section class="profile-container">
-        <img src="/profile.png" alt="foto de perfil">
+        <img src="/profile.png" class="profile-img" alt="foto de perfil">
         <div class="profile-text-container">
             <div class="profile-titulo">
                 <p><strong>
-                    Olá, sou Maicon Douglas!
+                    Olá, sou Maicon Douglas! 👋
                     </strong> <br>
                     Web Development
                 </p>
@@ -18,15 +18,42 @@
             <div class="stacks-container">
                 <h3>Stacks</h3>
                 <ul>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>Vite</li>
-                    <li>Angular</li>
-                    <li>GSAP</li>
-                    <li>JavaScript</li>
-                    <li>Typescript</li>
-                    <li>Node.js</li>
-                    <li>Express</li>
+                    <li>
+                        <img class="" src="/html.svg" width="30px" height="30px" alt="icon">
+                        HTML
+                    </li>
+                    <li>
+                        <img class="" src="/css.svg" width="30px" height="30px" alt="icon">
+                        CSS
+                    </li>
+                    <li>
+                        <img class="" src="/vite.svg" width="30px" height="30px" alt="icon">
+                        Vite
+                    </li>
+                    <li>
+                        <img class="" src="/angular.svg" width="30px" height="30px" alt="icon">
+                        Angular
+                    </li>
+                    <li>
+                        <img class="" src="/gsap.svg" width="30px" height="30px" alt="icon">
+                        GSAP
+                    </li>
+                    <li>
+                        <img class="" src="/js.svg" width="30px" height="30px" alt="icon">
+                        Js
+                    </li>
+                    <li>
+                        <img class="" src="/ts.svg" width="30px" height="30px" alt="icon">
+                        Ts
+                    </li>
+                    <li>
+                        <img class="" src="/nodejs.webp" width="30px" height="30px" alt="icon">
+                        Node.js
+                    </li>
+                    <li>
+                        <img class="" src="/express.svg" width="30px" height="30px" alt="icon">
+                        Express
+                    </li>
                     
                     
                 </ul>
@@ -39,3 +66,58 @@
    
 
 </header>
+
+<main #main>
+    <!---->
+    <section class="containerA">
+        <img class="A-logo-img" src="/logo.svg" alt="Logomarca Studios Macro">
+        <div class="A-text-container">
+            <h3>Fouder Studios Macro Soluções Web</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto animi atque velit voluptatem sequi corporis doloribus quidem voluptates! Officia, nam dolorem odio pariatur suscipit hic quaerat quas non totam repudiandae.</p>
+        </div>
+
+    </section>
+    <!---->
+    <section class="containerB">
+
+    </section>
+    <!---->
+    <section class="containerC">
+        <div class="slider">
+          <div class="slide" *ngFor="let word of words">
+            {{ word }}
+        </div>
+          <!-- Repetir as palavras para criar o efeito infinito -->
+          <div class="slide" *ngFor="let word of words">
+            {{ word }}
+        </div>
+        </div>
+    </section>
+    <!---->
+    <section class="containerD">
+        <div class="botao-development-container" [ngClass]="{'clicked': isClicked[0]}" (click)="toggleClick(0)">
+            <div class="botao-development">
+                <a target="_blank" class="btn-development"  id="btn-development">Whatsapp -></a>
+            </div>
+        </div>
+
+    </section>
+    <!---->
+    <section class="containerE">
+        <div class="botao-development-container" [ngClass]="{'clicked': isClicked[1]}" (click)="toggleClick(1)">
+            <div class="botao-development">
+                <a  target="_blank" class="btn-development"  id="btn-development">Instagram -></a>
+            </div>
+        </div>
+
+    </section>
+    <!---->
+    <section class="containerF">
+        <img src="/converter.webp" alt="" class="converter-img">
+        <div class="converter-text">
+            <h3>Conversor de imagens para .WEBP</h3>
+            <p>Desenvolvi a <a href="https://converter.studiosmacro.com.br" target="_blank">Studios Macro Converter</a> essencial para <strong>designers e desenvolvedores</strong>.</p>
+        </div>
+    </section>
+
+</main>
